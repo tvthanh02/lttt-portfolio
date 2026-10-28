@@ -779,7 +779,7 @@ h1, h2, h3, h4, p, figure, dl, dd { margin: 0; }
 }
 .contact__list li:first-child { border-top: 1px solid rgb(242 183 85 / .25); }
 .contact__list i { font-size: 1.3rem; color: var(--tan); }
-.contact__list span { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: #9c968e; }
+.contact__list li > span { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: #9c968e; }
 .contact__list a, .contact__list p { text-decoration: none; overflow-wrap: anywhere; }
 .contact__list a:hover { color: var(--tan); }
 .foot {
@@ -878,7 +878,7 @@ h1, h2, h3, h4, p, figure, dl, dd { margin: 0; }
   .reel__cta i:last-child { display: none; }
   .outcome { grid-template-columns: minmax(0, 1fr); }
   .contact__list li { grid-template-columns: 28px 1fr; }
-  .contact__list span { display: none; }
+  .contact__list li > span { display: none; }
   .case__phones { grid-template-columns: repeat(3, 28vw); }
   .case__phones .phone { border-radius: 20px; padding: 5px; }
   .case__phones .phone .media { border-radius: 16px; }
